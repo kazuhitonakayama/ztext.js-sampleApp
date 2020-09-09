@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    color: #05a;
+    font-size: 10rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.z-layer:not(:first-child) {
+    color: #0bd;
+  }
